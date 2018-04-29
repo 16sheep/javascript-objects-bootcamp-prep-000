@@ -1,4 +1,4 @@
-let playlist = {};
+let playlist = {deftones:'Minerva'};
 
 function updatePlaylist (obj, key, value) {
    Object.assign({}, obj, { [key]: value });
