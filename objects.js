@@ -8,8 +8,8 @@ let playlist = {deftones:'Minerva'};
 
 
 function updatePlaylist (obj, key, value) {
-  obj[key] = value
-  return obj
+  obj[key] = value;
+  return obj;
   
 }
 
